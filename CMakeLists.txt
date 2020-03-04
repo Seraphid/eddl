@@ -12,6 +12,8 @@ SET(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # USER OPTIONS *******************************
 set(BUILD_TARGET "GPU" CACHE STRING "Compile library for {CPU, GPU, FPGA}")
+set(Protobuf_INCLUDE_DIR "" CACHE STRING "Directory for Protobuf include directory")
+set(Protobuf_LIBRARY "" CACHE STRING "Path to Protobuf source")
 option(BUILD_EXAMPLES "Compile examples" ON)
 option(BUILD_OPENMP "Compile using OpenMP" ON)
 option(BUILD_PROTOBUF "Compile using Protobuf" OFF)
