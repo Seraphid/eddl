@@ -11,9 +11,9 @@
 #include <stdlib.h>
 #include <iostream>
 
-#include "apis/eddl.h"
-#include "apis/eddlT.h"
-#include "serialization/onnx/eddl_onnx.h"
+#include <eddl/apis/eddl.h>
+#include <eddl/apis/eddlT.h>
+#include <eddl/serialization/onnx/eddl_onnx.h>
 
 using namespace eddl;
 

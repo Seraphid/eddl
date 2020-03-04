@@ -17,13 +17,13 @@
 
 //#include <omp.h>
 
-#include "../src/initializers/initializer.h"
-#include "../src/tensor/tensor.h"
-#include "../src/tensor/tensor_reduction.h"
-#include "../src/tensor/nn/tensor_nn.h"
-#include "../src/regularizers/regularizer.h"
-#include "../src/tensor/nn/tensor_nn.h"
-#include "../src/hardware/cpu/nn/cpu_nn.h"
+#include <eddl/initializers/initializer.h>
+#include <eddl/tensor/tensor.h>
+#include <eddl/tensor/tensor_reduction.h>
+#include <eddl/tensor/nn/tensor_nn.h>
+#include <eddl/regularizers/regularizer.h>
+#include <eddl/tensor/nn/tensor_nn.h>
+#include <eddl/hardware/cpu/nn/cpu_nn.h>
 
 using namespace std;
 
