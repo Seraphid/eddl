@@ -4,6 +4,8 @@ include(CMakeFindDependencyMacro)
 SET(USE_CUDA "@USE_CUDA@")
 SET(BUILD_OPENMP "@BUILD_OPENMP@")
 SET(BUILD_PROTOBUF "@BUILD_PROTOBUF@")
+SET(Protobuf_INCLUDE_DIR "@Protobuf_INCLUDE_DIR@")
+SET(Protobuf_LIBRARY "@Protobuf_LIBRARY@")
 SET(ZLIB_ROOT "@ZLIB_ROOT@")
 
 # THREADS (pthreads setup for linux os)
