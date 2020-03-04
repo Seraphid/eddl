@@ -33,6 +33,8 @@ find_dependency(ZLIB)
 
 # PROTOBUF
 if (${BUILD_PROTOBUF})
+    message(Protobuf_INCLUDE_DIR)
+    message(Protobuf_LIBRARY)
     find_dependency(Protobuf)
 endif()
 
